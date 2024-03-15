@@ -1,0 +1,83 @@
+.logo img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+.genel h1 {
+    margin-top: 100px;
+    clear: both;
+    font-family: 'Arial', sans-serif; /* Yazı tipini değiştirir */
+    font-size: 2em; /* Yazı boyutunu değiştirir */
+    color: #b92020; /* Yazı rengini değiştirir */
+    text-align: center; /* Metni merkeze hizalar */
+    padding: 20px; /* Metnin etrafındaki boşluğu ayarlar */
+    background-color: #f0f0f0; /* Arka plan rengini ayarlar */
+    border-radius: 10px; /* Köşeleri yuvarlar */
+}
+.genel h2 {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+.genel p {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: solid;
+    background-color: #f0f0f0;
+}
+.awards-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.awards-table th, .awards-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.awards-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.genel li {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;   
+}
