@@ -109,6 +109,12 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .logo img {
+        width: 80px;
+    }
+}
+
 .genel {
     padding: 20px 5%;
 }
