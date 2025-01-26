@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'SF Pro';
     src: url('fonts/SF-Pro-Text-Regular.otf') format('opentype'),
          url('fonts/SF-Pro-Text-Regular.woff2') format('woff2'),
@@ -34,7 +34,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+*/
 .logo img {
     width: 100px;
     height: auto;
@@ -52,8 +52,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px 3%;
-    background-color: rgba(26, 26, 26, 0.95);
-    box-shadow: 0 1px 5px rgba(255,255,255,0.1);
+    /*background-color: rgba(26, 26, 26, 0.95);
+    box-shadow: 0 1px 5px rgba(255,255,255,0.1);*/
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -82,26 +82,26 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #f0f0f0;
+   /* text-decoration: none;
+    color: #f0f0f0;*/
     font-size: 14px;
-    font-weight: 500;
+  /*  font-weight: 500;*/
     padding: 6px 10px;
-    border-radius: 16px;
+   /* border-radius: 16px;*/
     transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
+/*nav ul li a:hover {
     color: #ff4040;
     background-color: rgba(255,255,255,0.1);
-}
+}*/
 
 nav ul li a::after {
     content: '';
     display: block;
     width: 0;
     height: 1px;
-    background: #ff4040;
+ /*   background: #ff4040;*/
     transition: width 0.3s;
 }
 
@@ -117,76 +117,79 @@ nav ul li a:hover::after {
 
 .genel {
     padding: 20px 5%;
+    text-align: center
 }
 
 .genel h1 {
     margin-top: 80px;
     font-size: 2em;
-    color: #ff4040;
+   /* color: #ff4040;*/
     text-align: center;
     padding: 20px;
-    background-color: #2a2a2a;
-    border-radius: 10px;
+  /*  background-color: #2a2a2a;
+    border-radius: 10px;*/
 }
 
 .genel h2 {
     margin-top: 40px;
     font-size: 1.5em;
-    color: #f0f0f0;
+   /* color: #f0f0f0;*/
     padding: 15px;
-    border-radius: 10px;
-    background-color: #2a2a2a;
+/*    border-radius: 10px;
+    background-color: #2a2a2a;*/
 }
 
 .genel p {
     margin-top: 20px;
     font-size: 1em;
-    color: #f0f0f0;
+ /*   color: #f0f0f0;*/
     padding: 15px;
-    border-radius: 10px;
+    /*border-radius: 10px;
     border: 1px solid #444;
-    background-color: #2a2a2a;
+    background-color: #2a2a2a;*/
 }
 
 .awards-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #2a2a2a;
+    background-color: #4a5942;
     overflow-x: auto;
     display: block;
+    text-align:center;
+    margin-right: auto;
 }
 
 .awards-table th, .awards-table td {
-    border: 1px solid #444;
+    border: 1px solid;
     padding: 12px;
     color: #f0f0f0;
 }
 
-.awards-table th {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    text-align: left;
-    background-color: #3a3a3a;
-    color: #ff4040;
-    font-weight: bold;
-}
+    .awards-table th {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        text-align: left;
+        background-color: #4a5942;
+        color: #ff4040;
+        font-weight: bold;
+    }
 
 .awards-table tr:nth-child(even) {
-    background-color: #333333;
+   /* background-color: #333333;*/
 }
 
-.awards-table tr:hover {
-    background-color: #404040;
-}
+    .awards-table tr:hover {
+        background-color: #3e4637;
+    }
 
 .genel li {
     margin-top: 15px;
     font-size: 1em;
-    color: #f0f0f0;
+  /*  color: #f0f0f0;*/
     padding: 10px;
-    background-color: #2a2a2a;
-    border-radius: 5px;
+    /*background-color: #2a2a2a;
+    border-radius: 5px;*/
 }
 
 @media (max-width: 768px) {
